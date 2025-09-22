@@ -366,6 +366,86 @@
       "settings": {
         "foreground": "#434343"
       }
+    },
+    // <template> tag name and brackets
+    {
+      "scope": [
+        "meta.tag.structure.template.start.html entity.name.tag.html",
+        "meta.tag.structure.template.start.html punctuation.definition.tag.begin.html",
+        "meta.tag.structure.template.start.html punctuation.definition.tag.end.html",
+        "meta.tag.structure.template.end.html entity.name.tag.html",
+        "meta.tag.structure.template.end.html punctuation.definition.tag.begin.html",
+        "meta.tag.structure.template.end.html punctuation.definition.tag.end.html"
+      ],
+      "settings": {
+        "foreground": "#9d700f",
+        "fontStyle": "bold underline"
+      }
+    },
+    // <template> attribute names
+    {
+      "scope": "meta.tag.structure.template.start.html entity.other.attribute-name.html",
+      "settings": {
+        "foreground": "#9d700f",
+        "fontStyle": "bold"
+      }
+    },
+    // <template> attribute values (any type of string)
+    {
+      "scope": [
+        "meta.tag.structure.template.start.html string.quoted.double.html",
+        "meta.tag.structure.template.start.html string.quoted.single.html",
+        "meta.tag.structure.template.start.html string.unquoted.html"
+      ],
+      "settings": {
+        "foreground": "#7c7c0a",
+        "fontStyle": "bold"
+      }
+    },
+    // Custom HTML tag names (e.g., <page-component-*>)
+    {
+      "scope": [
+        "meta.tag.custom.start.html entity.name.tag.html",
+        "meta.tag.custom.end.html entity.name.tag.html"
+      ],
+      "settings": {
+        "foreground": "#9d700fcb",
+        "fontStyle": "bold"
+      }
+    },
+    // Custom attributes names (if, else, elsif, map)
+    {
+      "scope": [
+        "meta.attribute.unrecognized.if.html entity.other.attribute-name.html",
+        "meta.attribute.unrecognized.else.html entity.other.attribute-name.html",
+        "meta.attribute.unrecognized.elsif.html entity.other.attribute-name.html",
+        "meta.attribute.unrecognized.map.html entity.other.attribute-name.html"
+      ],
+      "settings": {
+        "foreground": "#99990a",
+        "fontStyle": "bold italic underline"
+      }
+    },
+    // Custom attributes values (if, else, elsif, map)
+    {
+      "scope": [
+        "meta.attribute.unrecognized.if.html string.quoted.double.html",
+        "meta.attribute.unrecognized.else.html string.quoted.double.html",
+        "meta.attribute.unrecognized.elsif.html string.quoted.double.html",
+        "meta.attribute.unrecognized.map.html string.quoted.double.html"
+      ],
+      "settings": {
+        "foreground": "#7f6220",
+        "fontStyle": "bold italic"
+      }
+    },
+    // Jinja variables {{ ... }}
+    {
+      "scope": "text.html.jinja meta.scope.jinja.variable",
+      "settings": {
+        "foreground": "#7f6220",
+        "fontStyle": "bold"
+      }
     }
   ]
 }
