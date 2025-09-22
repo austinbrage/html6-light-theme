@@ -75,7 +75,7 @@
       "name": "Functions",
       "scope": ["entity.name.function", "support.function"],
       "settings": {
-        "fontStyle": "bold",
+        // "fontStyle": "bold",
         "foreground": "#AA3731"
       }
     },
@@ -156,7 +156,7 @@
         "meta.tag.sgml punctuation.definition.tag.html"
       ],
       "settings": {
-        "foreground": "#AAAAAA"
+        "foreground": "#8888CC"
       }
     },
     {
@@ -168,14 +168,14 @@
         "punctuation.definition.tag.end.html"
       ],
       "settings": {
-        "foreground": "#91B3E0"
+        "foreground": "#4B70B0"
       }
     },
     {
       "name": "HTML: Tag Names",
       "scope": "entity.name.tag",
       "settings": {
-        "foreground": "#4B83CD"
+        "foreground": "#1E50A2"
       }
     },
     {
@@ -186,14 +186,14 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#91B3E0"
+        "foreground": "#0055AA"
       }
     },
     {
       "name": "HTML: Entities",
       "scope": ["constant.character.entity", "punctuation.definition.entity"],
       "settings": {
-        "foreground": "#AB6526"
+        "foreground": "#004488"
       }
     },
     {
