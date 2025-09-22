@@ -1,0 +1,21 @@
+{
+  "name": "html6-light-theme",
+  "displayName": "html6-light-theme",
+  "description": "Light theme for HTML6 syntax",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.104.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "HTML6 Light Theme",
+        "uiTheme": "vs",
+        "path": "./themes/HTML6 Light Theme-color-theme.json"
+      }
+    ]
+  }
+}
