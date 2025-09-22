@@ -1,8 +1,10 @@
 {
   "name": "html6-light-theme",
-  "displayName": "html6-light-theme",
+  "displayName": "HTML6 Light Theme",
   "description": "Light theme for HTML6 syntax",
+  "repository": "git+https://github.com/austinbrage/html6-light-theme.git",
   "version": "0.0.1",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.104.0"
   },
