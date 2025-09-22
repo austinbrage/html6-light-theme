@@ -3,6 +3,7 @@
   "displayName": "HTML6 Light Theme",
   "description": "Light theme for HTML6 syntax",
   "repository": "git+https://github.com/austinbrage/html6-light-theme.git",
+  "icon": "icon.png",
   "version": "0.0.1",
   "license": "MIT",
   "engines": {
