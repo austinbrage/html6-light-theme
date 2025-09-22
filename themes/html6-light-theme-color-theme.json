@@ -441,10 +441,19 @@
     },
     // Jinja variables {{ ... }}
     {
-      "scope": "text.html.jinja meta.scope.jinja.variable",
+      "scope": "meta.embedded.expression.jinja variable.other.jinja",
       "settings": {
-        "foreground": "#7f6220",
+        "foreground": "#954e10",
         "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.definition.interpolation.begin.jinja",
+        "punctuation.definition.interpolation.end.jinja"
+      ],
+      "settings": {
+        "foreground": "#885500"
       }
     }
   ]

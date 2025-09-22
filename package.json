@@ -10,6 +10,18 @@
     "Themes"
   ],
   "contributes": {
+    "grammars": [
+      {
+        "language": "jinja",
+        "scopeName": "text.jinja.interpolation",
+        "path": "./syntaxes/jinja-injection.tmLanguage.json",
+        "injectTo": [
+          "text.html.basic",
+          "text.html.vue",
+          "text.html.jinja"
+        ]
+      }
+    ],
     "themes": [
       {
         "label": "HTML6 Light Theme",
