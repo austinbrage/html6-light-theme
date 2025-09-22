@@ -14,7 +14,7 @@
       {
         "label": "HTML6 Light Theme",
         "uiTheme": "vs",
-        "path": "./themes/HTML6 Light Theme-color-theme.json"
+        "path": "./themes/html6-light-theme-color-theme.json"
       }
     ]
   }
